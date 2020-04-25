@@ -229,6 +229,8 @@
 		<image stereo="true" stereolabels="1|2" if="webvr.isenabled OR device.mobilevr">
 			<cube url="panos/8.tiles/vr/pano_%t_%s.jpg" />
 		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="24.012" atv="13.603" linkedscene="scene_6" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-42.684" atv="11.755" linkedscene="scene_7" />
 
 	</scene>
 
@@ -327,7 +329,7 @@
 
 	<scene name="scene_14" title="Segundo Piso" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/14.tiles/thumb.jpg" lat="" lng="" heading="">
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="-104.950" vlookat="1.218" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/14.tiles/preview.jpg" />
 
@@ -338,12 +340,14 @@
 		<image stereo="true" stereolabels="1|2" if="webvr.isenabled OR device.mobilevr">
 			<cube url="panos/14.tiles/vr/pano_%t_%s.jpg" />
 		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-41.649" atv="10.260" linkedscene="scene_13" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-106.420" atv="7.677" linkedscene="scene_15" />
 
 	</scene>
 
 	<scene name="scene_15" title="Segundo Piso" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/15.tiles/thumb.jpg" lat="" lng="" heading="">
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="66.344" vlookat="5.809" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/15.tiles/preview.jpg" />
 
@@ -354,12 +358,14 @@
 		<image stereo="true" stereolabels="1|2" if="webvr.isenabled OR device.mobilevr">
 			<cube url="panos/15.tiles/vr/pano_%t_%s.jpg" />
 		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="86.763" atv="4.338" linkedscene="scene_14" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="36.962" atv="7.582" linkedscene="scene_13" />
 
 	</scene>
 
 	<scene name="scene_16" title="Quinto Piso" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/16.tiles/thumb.jpg" lat="" lng="" heading="">
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="-34.998" vlookat="-7.757" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/16.tiles/preview.jpg" />
 
@@ -377,7 +383,7 @@
 
 	<scene name="scene_17" title="Quinto Piso" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/17.tiles/thumb.jpg" lat="" lng="" heading="">
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="41.939" vlookat="-11.302" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/17.tiles/preview.jpg" />
 
