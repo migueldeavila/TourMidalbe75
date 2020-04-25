@@ -1,0 +1,1 @@
+Simple Tour created with KRPano v1.20.6
